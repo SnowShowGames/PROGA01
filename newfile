@@ -1,0 +1,31 @@
+#include <iostream>;
+#include <cmath>;
+#include <clocale>;
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	double a, b, c, x;
+	float f;
+	cout << "Введите a,b,c" << endl;
+	cin >> a >> b >> c;
+	cout << "Введите x" << endl;
+	cin >> x;
+		
+	if (x<3 && b!=0)
+	{
+		f = a * x * x - b * x + c;
+	}
+
+	if (x>3 && b=0)
+	{
+		f = ((x - a) / (x - c));
+	}
+
+	else
+	{
+		f = x / c;
+	}
+}
