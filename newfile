@@ -17,15 +17,18 @@ int main()
 	if (x<3 && b!=0)
 	{
 		f = a * x * x - b * x + c;
+cout<<f<<endl;
 	}
 
 	if (x>3 && b=0)
 	{
 		f = ((x - a) / (x - c));
+cout<<f<<endl;
 	}
 
-	else
+	if (x==3)
 	{
 		f = x / c;
+cout<<f<<endl;
 	}
 }
