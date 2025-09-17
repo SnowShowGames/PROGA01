@@ -20,7 +20,7 @@ int main()
 cout<<f<<endl;
 	}
 
-	if (x>3 && b=0)
+	if (x>3 && b==0)
 	{
 		f = ((x - a) / (x - c));
 cout<<f<<endl;
